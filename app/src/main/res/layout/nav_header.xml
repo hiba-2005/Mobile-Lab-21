@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="24dp"
+    android:background="#1E293B">
+
+    <!-- Cercle logo -->
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="S"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:background="#2563EB"
+        android:layout_marginBottom="18dp" />
+
+    <!-- Titre -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Sensors"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <!-- Sous titre -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analyse des capteurs embarqués"
+        android:textColor="#CBD5E1"
+        android:textSize="15sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

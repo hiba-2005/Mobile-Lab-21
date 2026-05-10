@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_sensors" android:title="Liste des capteurs" />
+
+    <item android:title="Capteurs simples">
+        <menu>
+            <item android:id="@+id/menu_temperature" android:title="Température" />
+            <item android:id="@+id/menu_humidity" android:title="Humidité" />
+            <item android:id="@+id/menu_proximity" android:title="Proximité" />
+            <item android:id="@+id/menu_magnetic" android:title="Champ magnétique" />
+        </menu>
+    </item>
+
+    <item android:title="Mouvement">
+        <menu>
+            <item android:id="@+id/menu_accelerometer" android:title="Accéléromètre" />
+            <item android:id="@+id/menu_gravity" android:title="Gravité" />
+            <item android:id="@+id/menu_gyroscope" android:title="Gyroscope" />
+            <item android:id="@+id/menu_steps" android:title="Compteur de pas" />
+        </menu>
+    </item>
+
+    <item android:title="Orientation">
+        <menu>
+            <item android:id="@+id/menu_compass" android:title="Boussole" />
+            <item android:id="@+id/menu_activity" android:title="Reconnaissance d’activité" />
+        </menu>
+    </item>
+
+</menu>
